@@ -18,14 +18,20 @@ header,nav,a{
   font-size: 20px;
   color: aliceblue;
   transition-duration: 1s;
+  text-decoration: none;
 }
 header,nav,a:hover{
+  padding-right: 20%;
+  font-size: 30px;
+  color: #c52b73;
+  
+}
+header,nav,a:active{
   padding-right: 50%;
   font-size: 30px;
   color: #C5832B;
   
 }
-
 .title{
   font-size: 30px;
   margin-bottom: 20px;
@@ -33,14 +39,15 @@ header,nav,a:hover{
   transition-duration: 1s;
 }
 .title:hover{
-  color: #C5832B;
+  color: #c52b73;
 }
 
-main{
+content{
   background-color:  #EFF1F3;
   padding: 20px;
   width: 100vh;
   height: 100vh;
+  margin-top: 1000px;
 }
 
 footer{

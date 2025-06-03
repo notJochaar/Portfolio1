@@ -1,15 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 function Header() {
     return(
         
         <header>
             <div className='title'>Portfolio</div>
             <nav>
-                <a>Home</a>
-                <a>About</a>
-                <a>Projects</a>
-                <a>PlaceHolder</a>
-
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/projects'>Projects</Link>
+                <Link to='/random'>PlaceHolder</Link>
+                <Link to='/private'>Private</Link>
+                
             </nav>
         </header>
     )
