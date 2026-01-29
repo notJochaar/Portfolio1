@@ -1,5 +1,5 @@
 "use client";
-import "../Styles/Private.css"
+//import "../Styles/Private.css"
 
 import TODOHero from '../components/TODOHero';
 import TODOList from '../components/TODOList';
